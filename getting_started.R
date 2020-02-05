@@ -1,6 +1,6 @@
 rm(list = ls(all = TRUE))
 
-setwd("C:/Users/Ignat/Desktop/workshop")
+setwd("C:/Users/Ignat/Desktop/data100/workshop")
 
 x <- 1:100
 y <- 1:100
@@ -57,3 +57,4 @@ xspline(x = dwellings[locs, 2],
         lty = 2)
 
 title(main = "The Path of the Traveling Salesman")
+
